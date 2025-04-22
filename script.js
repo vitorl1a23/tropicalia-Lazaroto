@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function(){
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
     })
     
-    
+    const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanted')==='true';
+    botaoDeAcessibilidade.setAttribute('aria-expanted',!botaoSelecionado);
     
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
