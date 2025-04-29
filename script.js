@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function(){
     alternaContraste.addEventListener('click', function(){
     document.body.classList.toggle('alto-contraste');
     })
-    });184106
+    });
 
     ScroolReveal().reveal ('#inicio',{delay: 500});
     ScroolReveal().reveal ('#galeria',{delay: 500});
