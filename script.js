@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function(){
     })
     });184106
 
-    ScroolReveal(). reveal ('#inicio',{delay: 500});
-    ScroolReveal(). reveal ('#galeria',{delay: 500});
-    ScroolReveal(). reveal ('#tropicalia',{delay: 500});
-    ScroolReveal(). reveal ('#contato',{delay: 500});
+    ScroolReveal().reveal ('#inicio',{delay: 500});
+    ScroolReveal().reveal ('#galeria',{delay: 500});
+    ScroolReveal().reveal ('#tropicalia',{delay: 500});
+    ScroolReveal().reveal ('#contato',{delay: 500});
