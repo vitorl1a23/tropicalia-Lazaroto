@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const alternaContraste = document.getElementById('alterna-contraste');
     
     let tamanhoAtualFonte = 1;
-    
+    184106
     aumentaFonteBotao.addEventListener('click', function(){
     tamanhoAtualFonte += 0.1;
     document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
@@ -31,4 +31,9 @@ document.addEventListener('DOMContentLoaded', function(){
     alternaContraste.addEventListener('click', function(){
     document.body.classList.toggle('alto-contraste');
     })
-    });
+    });184106
+
+    ScroolReveal(). reveal ('#inicio',{delay: 500});
+    ScroolReveal(). reveal ('#galeria',{delay: 500});
+    ScroolReveal(). reveal ('#tropicalia',{delay: 500});
+    ScroolReveal(). reveal ('#contato',{delay: 500});
